@@ -12,6 +12,8 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+substitutions:
+  _TERRAFORM_DESTROY: "yes"
 
 steps:
 - id: 'branch name'
@@ -78,16 +80,22 @@ steps:
 - id: 'tf apply'
   name: 'hashicorp/terraform:0.12.10'
   entrypoint: 'sh'
+  env:
+    - 'TERRAFORM_DESTROY=${_TERRAFORM_DESTROY}'
   args: 
   - '-c'
   - | 
-      if [ -d "environments/$BRANCH_NAME/" ]; then
-        cd environments/$BRANCH_NAME
-        terraform apply -auto-approve
+      if [ "$TERRAFORM_DESTROY" == "yes" ]; then
+        terraform destroy -auto-approve
       else
-        echo "***************************** SKIPPING APPLYING *******************************"
-        echo "Branch '$BRANCH_NAME' does not represent an oficial environment."
-        echo "*******************************************************************************"
+        if [ -d "environments/$BRANCH_NAME/" ]; then
+          cd environments/$BRANCH_NAME
+          terraform apply -auto-approve
+        else
+          echo "***************************** SKIPPING APPLYING *******************************"
+          echo "Branch '$BRANCH_NAME' does not represent an oficial environment."
+          echo "*******************************************************************************"
+        fi
       fi
 
 # [END tf-apply]      
