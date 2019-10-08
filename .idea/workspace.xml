@@ -94,7 +94,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570523596170</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="adding destroy variable">
+      <created>1570524296183</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1570524296183</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -115,6 +122,7 @@
     <MESSAGE value="updating tf version" />
     <MESSAGE value="updating tf version to 12" />
     <MESSAGE value="updating tf version to 11" />
-    <option name="LAST_COMMIT_MESSAGE" value="updating tf version to 11" />
+    <MESSAGE value="adding destroy variable" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding destroy variable" />
   </component>
 </project>
