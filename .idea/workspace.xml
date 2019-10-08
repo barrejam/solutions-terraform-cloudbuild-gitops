@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2377c2d8-3fcb-4d01-9850-ff8117541f06" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/cloudbuild.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/cloudbuild.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/vpc/main.tf" beforeDir="false" afterPath="$PROJECT_DIR$/modules/vpc/main.tf" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -115,7 +115,21 @@
       <option name="project" value="LOCAL" />
       <updated>1570524619475</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="updated tf version to 12.10">
+      <created>1570547182051</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1570547182051</updated>
+    </task>
+    <task id="LOCAL-00010" summary="updated tf version to 12.10">
+      <created>1570547275113</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1570547275113</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -138,6 +152,7 @@
     <MESSAGE value="updating tf version to 11" />
     <MESSAGE value="adding destroy variable" />
     <MESSAGE value="removing destroy variable" />
-    <option name="LAST_COMMIT_MESSAGE" value="removing destroy variable" />
+    <MESSAGE value="updated tf version to 12.10" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated tf version to 12.10" />
   </component>
 </project>
