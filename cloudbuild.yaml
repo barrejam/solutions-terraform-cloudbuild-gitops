@@ -12,9 +12,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-substitutions:
-  _TERRAFORM_DESTROY: "yes"
-
 steps:
 - id: 'branch name'
   name: 'alpine'
@@ -81,7 +78,7 @@ steps:
   name: 'hashicorp/terraform:0.12.10'
   entrypoint: 'sh'
   env:
-    - 'TERRAFORM_DESTROY=${_TERRAFORM_DESTROY}'
+    - 'TERRAFORM_DESTROY="yes"'
   args: 
   - '-c'
   - | 
