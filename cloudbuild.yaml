@@ -23,7 +23,6 @@ steps:
       echo "***********************"
       echo "$BRANCH_NAME"
       echo "***********************"
-  env: ['DESTROY=yes']
 
 - id: 'tf init'
   name: 'hashicorp/terraform:0.11.14'
@@ -82,17 +81,13 @@ steps:
   args: 
   - '-c'
   - | 
-      if ["$DESTROY"="yes"]; then
+      if [ -d "environments/$BRANCH_NAME/" ]; then
         cd environments/$BRANCH_NAME
-        terraform destroy -auto-approve
+        terraform apply -auto-approve
       else
-        if [ -d "environments/$BRANCH_NAME/" ]; then
-          cd environments/$BRANCH_NAME
-          terraform apply -auto-approve
-        else
-          echo "***************************** SKIPPING APPLYING *******************************"
-          echo "Branch '$BRANCH_NAME' does not represent an oficial environment."
-          echo "*******************************************************************************"
-        fi
+        echo "***************************** SKIPPING APPLYING *******************************"
+        echo "Branch '$BRANCH_NAME' does not represent an oficial environment."
+        echo "*******************************************************************************"
       fi
+      
 # [END tf-apply]      
