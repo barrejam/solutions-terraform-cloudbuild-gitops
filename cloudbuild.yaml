@@ -77,11 +77,10 @@ steps:
 - id: 'tf apply'
   name: 'hashicorp/terraform:0.12.10'
   entrypoint: 'sh'
-  env:
-    - 'TERRAFORM_DESTROY="yes"'
-  args: 
+  args:
   - '-c'
-  - | 
+  - |
+    TERRAFORM_DESTROY="yes"
       if [ "$TERRAFORM_DESTROY" == "yes" ]; then
         terraform destroy -auto-approve
       else
