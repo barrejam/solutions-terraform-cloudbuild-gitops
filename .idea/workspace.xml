@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2377c2d8-3fcb-4d01-9850-ff8117541f06" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/environments/prod/backend.tf" beforeDir="false" afterPath="$PROJECT_DIR$/environments/prod/backend.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/environments/prod/main.tf" beforeDir="false" afterPath="$PROJECT_DIR$/environments/prod/main.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/environments/prod/outputs.tf" beforeDir="false" afterPath="$PROJECT_DIR$/environments/prod/outputs.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/environments/prod/variables.tf" beforeDir="false" afterPath="$PROJECT_DIR$/environments/prod/variables.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/environments/prod/versions.tf" beforeDir="false" afterPath="$PROJECT_DIR$/environments/prod/versions.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/environments/dev/main.tf" beforeDir="false" afterPath="$PROJECT_DIR$/environments/dev/main.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/environments/dev/outputs.tf" beforeDir="false" afterPath="$PROJECT_DIR$/environments/dev/outputs.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/environments/dev/variables.tf" beforeDir="false" afterPath="$PROJECT_DIR$/environments/dev/variables.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/environments/dev/versions.tf" beforeDir="false" afterPath="$PROJECT_DIR$/environments/dev/versions.tf" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -134,7 +132,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570547275113</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="remove some comments">
+      <created>1570622453457</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1570622453457</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -158,6 +163,7 @@
     <MESSAGE value="adding destroy variable" />
     <MESSAGE value="removing destroy variable" />
     <MESSAGE value="updated tf version to 12.10" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated tf version to 12.10" />
+    <MESSAGE value="remove some comments" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove some comments" />
   </component>
 </project>
