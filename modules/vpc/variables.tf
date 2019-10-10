@@ -1,5 +1,2 @@
-
-
-
 variable "project" {}
 variable "env" {}

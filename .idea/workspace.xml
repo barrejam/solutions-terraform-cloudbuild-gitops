@@ -1,44 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2377c2d8-3fcb-4d01-9850-ff8117541f06" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/terraform.xml" afterDir="false" />
+    <list default="true" id="2377c2d8-3fcb-4d01-9850-ff8117541f06" name="Default Changelist" comment="removed comments">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudbuild.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/cloudbuild.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/environments/dev/.terraform/modules/vpc.vpc/terraform-google-modules-terraform-google-network-4e7cd17/test/boilerplate/boilerplate.Dockerfile.txt" beforeDir="false" afterPath="$PROJECT_DIR$/environments/dev/.terraform/modules/vpc.vpc/terraform-google-modules-terraform-google-network-4e7cd17/test/boilerplate/boilerplate.Dockerfile.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/environments/dev/.terraform/modules/vpc.vpc/terraform-google-modules-terraform-google-network-4e7cd17/test/boilerplate/boilerplate.Makefile.txt" beforeDir="false" afterPath="$PROJECT_DIR$/environments/dev/.terraform/modules/vpc.vpc/terraform-google-modules-terraform-google-network-4e7cd17/test/boilerplate/boilerplate.Makefile.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/environments/dev/.terraform/modules/vpc.vpc/terraform-google-modules-terraform-google-network-4e7cd17/test/boilerplate/boilerplate.py.txt" beforeDir="false" afterPath="$PROJECT_DIR$/environments/dev/.terraform/modules/vpc.vpc/terraform-google-modules-terraform-google-network-4e7cd17/test/boilerplate/boilerplate.py.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/environments/dev/.terraform/modules/vpc.vpc/terraform-google-modules-terraform-google-network-4e7cd17/test/boilerplate/boilerplate.yaml.txt" beforeDir="false" afterPath="$PROJECT_DIR$/environments/dev/.terraform/modules/vpc.vpc/terraform-google-modules-terraform-google-network-4e7cd17/test/boilerplate/boilerplate.yaml.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/environments/dev/.terraform/modules/vpc.vpc/terraform-google-modules-terraform-google-network-4e7cd17/test/test_verify_boilerplate.py" beforeDir="false" afterPath="$PROJECT_DIR$/environments/dev/.terraform/modules/vpc.vpc/terraform-google-modules-terraform-google-network-4e7cd17/test/test_verify_boilerplate.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/environments/dev/.terraform/modules/vpc.vpc/terraform-google-modules-terraform-google-network-4e7cd17/test/verify_boilerplate.py" beforeDir="false" afterPath="$PROJECT_DIR$/environments/dev/.terraform/modules/vpc.vpc/terraform-google-modules-terraform-google-network-4e7cd17/test/verify_boilerplate.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/environments/dev/backend.tf" beforeDir="false" afterPath="$PROJECT_DIR$/environments/dev/backend.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/environments/prod/.terraform/modules/vpc.vpc/terraform-google-modules-terraform-google-network-4e7cd17/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/environments/prod/.terraform/modules/vpc.vpc/terraform-google-modules-terraform-google-network-4e7cd17/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/environments/prod/.terraform/modules/vpc.vpc/terraform-google-modules-terraform-google-network-4e7cd17/test/boilerplate/boilerplate.Dockerfile.txt" beforeDir="false" afterPath="$PROJECT_DIR$/environments/prod/.terraform/modules/vpc.vpc/terraform-google-modules-terraform-google-network-4e7cd17/test/boilerplate/boilerplate.Dockerfile.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/environments/prod/.terraform/modules/vpc.vpc/terraform-google-modules-terraform-google-network-4e7cd17/test/boilerplate/boilerplate.Makefile.txt" beforeDir="false" afterPath="$PROJECT_DIR$/environments/prod/.terraform/modules/vpc.vpc/terraform-google-modules-terraform-google-network-4e7cd17/test/boilerplate/boilerplate.Makefile.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/environments/prod/.terraform/modules/vpc.vpc/terraform-google-modules-terraform-google-network-4e7cd17/test/boilerplate/boilerplate.py.txt" beforeDir="false" afterPath="$PROJECT_DIR$/environments/prod/.terraform/modules/vpc.vpc/terraform-google-modules-terraform-google-network-4e7cd17/test/boilerplate/boilerplate.py.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/environments/prod/.terraform/modules/vpc.vpc/terraform-google-modules-terraform-google-network-4e7cd17/test/boilerplate/boilerplate.yaml.txt" beforeDir="false" afterPath="$PROJECT_DIR$/environments/prod/.terraform/modules/vpc.vpc/terraform-google-modules-terraform-google-network-4e7cd17/test/boilerplate/boilerplate.yaml.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/environments/prod/.terraform/modules/vpc.vpc/terraform-google-modules-terraform-google-network-4e7cd17/test/test_verify_boilerplate.py" beforeDir="false" afterPath="$PROJECT_DIR$/environments/prod/.terraform/modules/vpc.vpc/terraform-google-modules-terraform-google-network-4e7cd17/test/test_verify_boilerplate.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/environments/prod/.terraform/modules/vpc.vpc/terraform-google-modules-terraform-google-network-4e7cd17/test/verify_boilerplate.py" beforeDir="false" afterPath="$PROJECT_DIR$/environments/prod/.terraform/modules/vpc.vpc/terraform-google-modules-terraform-google-network-4e7cd17/test/verify_boilerplate.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/environments/prod/backend.tf" beforeDir="false" afterPath="$PROJECT_DIR$/environments/prod/backend.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/firewall/main.tf" beforeDir="false" afterPath="$PROJECT_DIR$/modules/firewall/main.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/firewall/outputs.tf" beforeDir="false" afterPath="$PROJECT_DIR$/modules/firewall/outputs.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/firewall/variables.tf" beforeDir="false" afterPath="$PROJECT_DIR$/modules/firewall/variables.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/firewall/versions.tf" beforeDir="false" afterPath="$PROJECT_DIR$/modules/firewall/versions.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/http_server/main.tf" beforeDir="false" afterPath="$PROJECT_DIR$/modules/http_server/main.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/http_server/outputs.tf" beforeDir="false" afterPath="$PROJECT_DIR$/modules/http_server/outputs.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/http_server/variables.tf" beforeDir="false" afterPath="$PROJECT_DIR$/modules/http_server/variables.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/http_server/versions.tf" beforeDir="false" afterPath="$PROJECT_DIR$/modules/http_server/versions.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/vpc/.terraform/modules/vpc/terraform-google-modules-terraform-google-network-4e7cd17/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/modules/vpc/.terraform/modules/vpc/terraform-google-modules-terraform-google-network-4e7cd17/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/vpc/.terraform/modules/vpc/terraform-google-modules-terraform-google-network-4e7cd17/test/boilerplate/boilerplate.Dockerfile.txt" beforeDir="false" afterPath="$PROJECT_DIR$/modules/vpc/.terraform/modules/vpc/terraform-google-modules-terraform-google-network-4e7cd17/test/boilerplate/boilerplate.Dockerfile.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/vpc/.terraform/modules/vpc/terraform-google-modules-terraform-google-network-4e7cd17/test/boilerplate/boilerplate.Makefile.txt" beforeDir="false" afterPath="$PROJECT_DIR$/modules/vpc/.terraform/modules/vpc/terraform-google-modules-terraform-google-network-4e7cd17/test/boilerplate/boilerplate.Makefile.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/vpc/.terraform/modules/vpc/terraform-google-modules-terraform-google-network-4e7cd17/test/boilerplate/boilerplate.py.txt" beforeDir="false" afterPath="$PROJECT_DIR$/modules/vpc/.terraform/modules/vpc/terraform-google-modules-terraform-google-network-4e7cd17/test/boilerplate/boilerplate.py.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/vpc/.terraform/modules/vpc/terraform-google-modules-terraform-google-network-4e7cd17/test/boilerplate/boilerplate.yaml.txt" beforeDir="false" afterPath="$PROJECT_DIR$/modules/vpc/.terraform/modules/vpc/terraform-google-modules-terraform-google-network-4e7cd17/test/boilerplate/boilerplate.yaml.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/vpc/.terraform/modules/vpc/terraform-google-modules-terraform-google-network-4e7cd17/test/test_verify_boilerplate.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/vpc/.terraform/modules/vpc/terraform-google-modules-terraform-google-network-4e7cd17/test/test_verify_boilerplate.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/vpc/.terraform/modules/vpc/terraform-google-modules-terraform-google-network-4e7cd17/test/verify_boilerplate.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/vpc/.terraform/modules/vpc/terraform-google-modules-terraform-google-network-4e7cd17/test/verify_boilerplate.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/vpc/main.tf" beforeDir="false" afterPath="$PROJECT_DIR$/modules/vpc/main.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/vpc/outputs.tf" beforeDir="false" afterPath="$PROJECT_DIR$/modules/vpc/outputs.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/vpc/variables.tf" beforeDir="false" afterPath="$PROJECT_DIR$/modules/vpc/variables.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/vpc/versions.tf" beforeDir="false" afterPath="$PROJECT_DIR$/modules/vpc/versions.tf" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,7 +13,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="dev" />
+        <entry key="$PROJECT_DIR$" value="prod" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -70,7 +34,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.terraform" />
+    <property name="settings.editor.selected.configurable" value="terminal" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -165,19 +129,19 @@
       <option name="project" value="LOCAL" />
       <updated>1570547275113</updated>
     </task>
-    <task id="LOCAL-00011" summary="remove some comments">
-      <created>1570622453457</created>
+    <task id="LOCAL-00011" summary="removed comments">
+      <created>1570627858008</created>
       <option name="number" value="00011" />
       <option name="presentableId" value="LOCAL-00011" />
       <option name="project" value="LOCAL" />
-      <updated>1570622453457</updated>
+      <updated>1570627858008</updated>
     </task>
-    <task id="LOCAL-00012" summary="fix cloudbuild.yaml">
-      <created>1570623845738</created>
+    <task id="LOCAL-00012" summary="removed comments">
+      <created>1570699666634</created>
       <option name="number" value="00012" />
       <option name="presentableId" value="LOCAL-00012" />
       <option name="project" value="LOCAL" />
-      <updated>1570623845738</updated>
+      <updated>1570699666634</updated>
     </task>
     <option name="localTasksCounter" value="13" />
     <servers />
@@ -203,8 +167,7 @@
     <MESSAGE value="adding destroy variable" />
     <MESSAGE value="removing destroy variable" />
     <MESSAGE value="updated tf version to 12.10" />
-    <MESSAGE value="remove some comments" />
-    <MESSAGE value="fix cloudbuild.yaml" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix cloudbuild.yaml" />
+    <MESSAGE value="removed comments" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed comments" />
   </component>
 </project>
