@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2377c2d8-3fcb-4d01-9850-ff8117541f06" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/modules/vpc/main.tf" beforeDir="false" afterPath="$PROJECT_DIR$/modules/vpc/main.tf" afterDir="false" />
+    <list default="true" id="2377c2d8-3fcb-4d01-9850-ff8117541f06" name="Default Changelist" comment="removed comments">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,7 +34,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="terminal" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -129,7 +129,21 @@
       <option name="project" value="LOCAL" />
       <updated>1570547275113</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="removed comments">
+      <created>1570627858008</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1570627858008</updated>
+    </task>
+    <task id="LOCAL-00012" summary="removed comments">
+      <created>1570699666634</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1570699666634</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -153,6 +167,7 @@
     <MESSAGE value="adding destroy variable" />
     <MESSAGE value="removing destroy variable" />
     <MESSAGE value="updated tf version to 12.10" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated tf version to 12.10" />
+    <MESSAGE value="removed comments" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed comments" />
   </component>
 </project>
