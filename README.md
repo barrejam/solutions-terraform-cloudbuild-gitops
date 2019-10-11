@@ -9,6 +9,7 @@ Just for demostration, this step will:
  2. Open port 80 on firewall for this http server 
 
 ```bash
+export GOOGLE_APPLICATION_CREDENTIALS=/Users/barrettj/IdeaProjects/credentials.json
 cd ../environments/dev
 terraform init
 terraform plan
