@@ -36,7 +36,7 @@ steps:
   - |
       if [ "$BRANCH_NAME" == "dev" ]; then
         cd main
-        terraform plan -backend-config="prefix=env/$BRANCH_NAME"
+        terraform plan 
       else
         echo ""
         echo "*************** TERRAFORM PLAN ******************"
