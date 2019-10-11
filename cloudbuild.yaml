@@ -36,7 +36,7 @@ steps:
   - |
       if [ "$BRANCH_NAME" == "dev" ]; then
         cd main
-        terraform plan 
+        terraform plan -var"env=$BRANCH_NAME"
       else
         echo ""
         echo "*************** TERRAFORM PLAN ******************"
