@@ -19,12 +19,10 @@ steps:
         cd main
         terraform init
       else
-        do
-          echo ""
-          echo "*************** TERRAFORM INIT ******************"
-          echo "******* not doing anything ********"
-          echo "*************************************************"
-        done
+        echo ""
+        echo "*************** TERRAFORM INIT ******************"
+        echo "******* not doing anything ********"
+        echo "*************************************************"
       fi
 
 
@@ -40,12 +38,10 @@ steps:
         cd main
         terraform plan
       else
-        do
-          echo ""
-          echo "*************** TERRAFORM PLAN ******************"
-          echo "******* not doing anything ********"
-          echo "*************************************************"
-        done
+        echo ""
+        echo "*************** TERRAFORM PLAN ******************"
+        echo "******* not doing anything ********"
+        echo "*************************************************"
       fi
 
 ## [START tf-plan]
