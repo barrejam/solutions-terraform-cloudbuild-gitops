@@ -22,7 +22,7 @@ steps:
         echo "*************************************************"
         echo ""
         cd main
-        terraform init -backend-config="prefix=env/$BRANCH_NAME"
+        terraform init -backend-config="prefix=env/"$BRANCH_NAME""
     else
         echo ""
         echo "*************** TERRAFORM INIT ******************"
@@ -47,7 +47,7 @@ steps:
         echo "*************************************************"
         echo ""
         cd main
-        terraform plan -backend-config="prefix=env/$BRANCH_NAME"
+        terraform plan -backend-config="prefix=env/"$BRANCH_NAME""
       else
         echo ""
         echo "*************** TERRAFORM PLAN ******************"
