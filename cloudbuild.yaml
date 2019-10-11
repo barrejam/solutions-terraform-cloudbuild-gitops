@@ -17,7 +17,7 @@ steps:
   - |
       if [ "$BRANCH_NAME" == "dev" ]; then
         cd main
-        terraform init
+        terraform init -var="end=dev"
       else
         echo ""
         echo "*************** TERRAFORM INIT ******************"
@@ -36,7 +36,7 @@ steps:
   - |
       if [ "$BRANCH_NAME" == "dev" ]; then
         cd main
-        terraform plan
+        terraform plan -var="end=dev"
       else
         echo ""
         echo "*************** TERRAFORM PLAN ******************"
