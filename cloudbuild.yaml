@@ -16,23 +16,20 @@ steps:
   - '-c'
   - |
       if [ "$BRANCH_NAME" == "dev" ]; then
-        echo ""
-        echo "*************** TERRAFORM INIT ******************"
-        echo "******* running init ********"
-        echo "*************************************************"
-        echo ""
-        cd main
-        terraform init -backend-config="prefix=env/"$BRANCH_NAME""
-    else
-        echo ""
-        echo "*************** TERRAFORM INIT ******************"
-        echo "******* not doing anything ********"
-        echo "*************************************************"
-        echo ""
+          echo ""
+          echo "*************** TERRAFORM INIT ******************"
+          echo "******* running init ********"
+          echo "*************************************************"
+          echo ""
+          cd main
+          terraform init -backend-config="prefix=env/$BRANCH_NAME"
+      else
+          echo ""
+          echo "*************** TERRAFORM INIT ******************"
+          echo "******* not doing anything ********"
+          echo "*************************************************"
+          echo ""
       fi
-
-
-
 
 - id: 'tf plan'
   name: 'hashicorp/terraform:0.12.10'
