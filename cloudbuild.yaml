@@ -33,14 +33,13 @@ steps:
 #        done
 #      fi
 
--id: 'tf init'
+- id: 'tf init'
     name: 'hashicorp/terraform:0.12.10'
     entrypoint: 'sh'
     args:
     - '-c'
     - |
         if [ "$BRANCH_NAME" == "dev" ]; then
-
           cd main
           echo ""
           echo "*************** TERRAFORM INIT ******************"
@@ -48,7 +47,6 @@ steps:
           echo "*************************************************"
           terraform init
           cd ../
-
         fi
 
 
@@ -59,7 +57,6 @@ steps:
   - '-c'
   - |
     if [ "$BRANCH_NAME" == "dev" ]; then
-
       cd main
       echo ""
       echo "*************** TERRAFORM PLAN ******************"
@@ -67,7 +64,6 @@ steps:
       echo "*************************************************"
       terraform plan
       cd ../
-
     fi
 
 ## [START tf-plan]
