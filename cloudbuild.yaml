@@ -17,7 +17,7 @@ steps:
   - |
       if [ "$BRANCH_NAME" == "dev" ]; then
         cd main
-        terraform init -var="end=dev"
+        terraform init -backend-config="prefix=env/$BRANCH_NAME"
       else
         echo ""
         echo "*************** TERRAFORM INIT ******************"
@@ -36,7 +36,7 @@ steps:
   - |
       if [ "$BRANCH_NAME" == "dev" ]; then
         cd main
-        terraform plan -var="end=dev"
+        terraform plan -backend-config="prefix=env/$BRANCH_NAME"
       else
         echo ""
         echo "*************** TERRAFORM PLAN ******************"
