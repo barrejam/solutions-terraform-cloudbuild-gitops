@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2377c2d8-3fcb-4d01-9850-ff8117541f06" name="Default Changelist" comment="removed comments">
+    <list default="true" id="2377c2d8-3fcb-4d01-9850-ff8117541f06" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/main/backend.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/main.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/outputs.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/terraform.tfvars" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/variables.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/versions.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/terraform.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloudbuild.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/cloudbuild.yaml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,10 +39,16 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="TF_FMT" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/main" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="terminal" />
+    <property name="settings.editor.selected.configurable" value="Settings.PowerShell" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/main" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -143,7 +157,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570699666634</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="removed destroy block">
+      <created>1570780158954</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1570780158954</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -168,6 +189,7 @@
     <MESSAGE value="removing destroy variable" />
     <MESSAGE value="updated tf version to 12.10" />
     <MESSAGE value="removed comments" />
-    <option name="LAST_COMMIT_MESSAGE" value="removed comments" />
+    <MESSAGE value="removed destroy block" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed destroy block" />
   </component>
 </project>
