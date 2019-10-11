@@ -2,14 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2377c2d8-3fcb-4d01-9850-ff8117541f06" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/main/backend.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/main.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/outputs.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/terraform.tfvars" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/variables.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/versions.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/terraform.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloudbuild.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/cloudbuild.yaml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -164,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570780158954</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="moving to single code block">
+      <created>1570803592852</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1570803592853</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -190,6 +189,7 @@
     <MESSAGE value="updated tf version to 12.10" />
     <MESSAGE value="removed comments" />
     <MESSAGE value="removed destroy block" />
-    <option name="LAST_COMMIT_MESSAGE" value="removed destroy block" />
+    <MESSAGE value="moving to single code block" />
+    <option name="LAST_COMMIT_MESSAGE" value="moving to single code block" />
   </component>
 </project>

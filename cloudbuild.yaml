@@ -46,12 +46,30 @@ steps:
           echo "*************** TERRAFORM INIT ******************"
           echo "******* At environment: ${env} ********"
           echo "*************************************************"
-          terraform init || exit 1
-          cd ../../
+          terraform init
+          cd ../
 
         fi
 
-#
+
+- id: 'tf plan'
+  name: 'hashicorp/terraform:0.12.10'
+  entrypoint: 'sh'
+  args:
+  - '-c'
+  - |
+    if [ "$BRANCH_NAME" == "dev" ]; then
+
+      cd main
+      echo ""
+      echo "*************** TERRAFORM PLAN ******************"
+      echo "******* At environment: ${env} ********"
+      echo "*************************************************"
+      terraform plan
+      cd ../
+
+    fi
+
 ## [START tf-plan]
 #- id: 'tf plan'
 #  name: 'hashicorp/terraform:0.12.10'
