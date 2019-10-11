@@ -6,6 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="2377c2d8-3fcb-4d01-9850-ff8117541f06" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/cloudbuild.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/cloudbuild.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/backend.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/main.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/outputs.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/terraform.tfvars" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/variables.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/versions.tf" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
